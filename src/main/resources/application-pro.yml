@@ -5,7 +5,7 @@ server:
   ssl:
     key-store: www.pythonplus.xyz.jks
     key-store-type: JKS
-    key-store-password: 852521
+    key-store-password: password
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
