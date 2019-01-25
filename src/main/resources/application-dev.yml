@@ -6,8 +6,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://routany.cn:3306/clay?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
-    username: root
-    password: 852521
+    username: username 
+    password: password
     type: com.zaxxer.hikari.HikariDataSource
     hikari:
       auto-commit: true
@@ -42,7 +42,7 @@ spring:
     database: 3
     host: routany.cn
     port: 6379
-    password: clay123456
+    password: password
     jedis:
       pool:
         max-active: 500
